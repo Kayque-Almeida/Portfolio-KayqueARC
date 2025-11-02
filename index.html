@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br" translate="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Estilização CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Icon -->
+  <link rel="Icon" type="img/png" href="img/FavIcon.png" />
+  <title>Portfólio | Kayque ARC</title>
+  <!-- Fonte Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <header id="header">
+    <div class="interface">
+      <div class="soon">
+        <a tabindex="-1" class="soon-fg" href="#home">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+      </div>
+      <!-- LOGO -->
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="#" id="home">Início</a></li>
+          <li><a href="#specialty">Especialidades</a></li>
+          <li><a href="#about-me">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+        </ul>
+      </nav>
+      <div class="btn-contact">
+        <a href="#contact">
+          <button>Contato</button>
+        </a>
+      </div>
+
+      <div class="btn-open-menu" id="btn-menu">
+        <i class="bi bi-list"></i>
+      </div> <!-- BTN-OPEN-MENU -->
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-close">
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#" id="home">Início</a></li>
+            <li><a href="#specialty">Especialidades</a></li>
+            <li><a href="#about-me">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </div> <!-- MENU MOBILE -->
+      <div class="overlay-menu" id="overlay-menu"></div>
+    </div> <!-- INTERFACE -->
+  </header>
+  <!-- HEADER -->
+
+  <main>
+    <section class="top-of-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-top-of-site">
+            <div class="txt-animation">
+              <span id="text">
+                <span class="typed"></span><span class="cursor"></span>
+              </span>
+            </div>
+            <p>
+              Desenvolvedor Front-End em constante evolução em construir sites modernos e responsivos
+              com <span class="blue">HTML</span>, <span class="blue">CSS</span> e <span class="blue">JavaScript</span>.
+              E ajudo marcas e profissionais a se destacarem com sites modernos e
+              envolventes.
+            </p>
+            <div class="btn-cv">
+              <a>
+                <button onclick="baixarCurriculo()">Download CV</button>
+              </a>
+            </div>
+          </div>
+          <!-- TEXTO DO TOPO -->
+          <div class="img-top-of-site">
+            <img src="img/perfil.png" alt="imagem-site" />
+          </div>
+          <!-- IMG TOPO -->
+        </div>
+        <!-- FLEX -->
+      </div>
+      <!-- INTERFACE -->
+    </section>
+    <!-- TOPO DO SITE -->
+
+    <section id="specialty" class="specialty">
+      <div class="interface">
+        <h2 class="title">MINHAS <span>ESPECIALIDADES.</span></h2>
+        <div class="flex">
+          <div class="specialty-box">
+            <i class="bi bi-code-square"></i>
+            <h3>WEBSITE</h3>
+            <p>
+              Desenvolvo <span class="blue">websites</span> modernos, rápidos e totalmente responsivos, focados em
+              entregar performance, design e
+              funcionalidade.
+              Cada site é planejado para transmitir a identidade da marca, oferecer navegação intuitiva e garantir uma
+              experiência fluida em qualquer dispositivo.
+            </p>
+          </div>
+          <!-- SPECIALTY-BOX -->
+          <div class="specialty-box">
+            <i class="bi bi-newspaper"></i>
+            <h3>LANDING PAGE</h3>
+            <p>
+              Desenvolvo <span class="blue">landing pages</span> modernas e otimizadas para destacar produtos, serviços
+              ou campanhas específicas.
+              Cada página é planejada para atrair atenção, reter o visitante e gerar conversões, com design limpo,
+              responsivo e foco na performance.
+            </p>
+          </div>
+          <!-- SPECIALTY-BOX -->
+          <div class="specialty-box">
+            <i class="bi bi-phone"></i>
+            <h3>MOBILE</h3>
+            <p>
+              Desenvolvo <span class="blue">interfaces</span> que se moldam do tamanho do seu dispositivo.
+              Seja no celular, tablet ou computador, o design permanece bonito, funcional e intuitivo.
+              Todos os meus projetos são desenvolvidos com foco em responsividade.
+            </p>
+          </div>
+          <!-- SPECIALTY-BOX -->
+        </div>
+        <!-- FLEX -->
+      </div>
+      <!-- INTERFACE -->
+    </section>
+    <!-- ESPECIALIDADE -->
+  </main>
+  <!-- MAIN -->
+
+  <section id="about-me" class="about-me">
+    <div class="interface">
+      <div class="flex">
+        <div class="img-about-me">
+          <img src="img/img-home.png" alt="" />
+        </div>
+        <!-- IMG-ABOUT-ME -->
+
+        <div class="txt-about-me">
+          <h2 class="title">
+            ME CHAMO, <span>KAYQUE DE ALMEIDA RODRIGUES DO CARMO.</span>
+          </h2>
+          <p>
+            Sou desenvolvedor Front-End, formado em Desenvolvimento de Jogos Digitais, e atualmente estou me
+            especializando como Full Stack Developer.
+            Tenho paixão por criar interfaces modernas e interativas, transformando ideias em experiências digitais que
+            realmente conectam pessoas.
+          </p>
+          <p>
+            No momento, estou aprofundando meus estudos em React, explorando o ecossistema front-end e aprimorando
+            minhas habilidades em tecnologias web modernas.
+            Meu foco é evoluir constantemente, aprender novas ferramentas e desenvolver projetos que unam design,
+            performance e funcionalidade.
+          </p>
+          <div class="btn-social">
+            <a href="mailto:kayque.carmo11@gmail.com" target="_blank">
+              <button>
+                <i class="bi bi-envelope-fill"></i>
+              </button>
+            </a>
+            <a href="https://github.com/Kayque-Almeida" target="_blank">
+              <button>
+                <i class="bi bi-github"></i>
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/kayque-almeida/" target="_blank">
+              <button>
+                <i class="bi bi-linkedin"></i>
+              </button>
+            </a>
+          </div> <!-- BTN-SOCIAL -->
+        </div><!-- TXT-ABOUT-ME -->
+      </div> <!-- FLEX -->
+    </div>
+    <!-- INTERFACE -->
+  </section>
+  <!-- ABOUT-ME -->
+
+  <section id="projects" class="portfolio">
+    <div class="interface">
+      <h2 class="title">MEU <span>PORTFÓLIO.</span></h2>
+      <div class="grid">
+        <button onClick="abrirSiteMosquito()" class="btn-projects">
+          <div class="img-port" style="background-image: url(img/projeto-mata-mosquito.png);"></div>
+          <div class="overlay">Projeto Mata Mosquito</div>
+        </button>
+        <button onClick="abrirSiteCalculadora()" class="btn-projects">
+          <div class="img-port" style="background-image: url(img/projeto-calculadora.png);"></div>
+          <div class="overlay">Projeto Calculadora</div>
+        </button>
+        <button onClick="abrirSiteParallax()" class="btn-projects">
+          <div class="img-port" style="background-image: url(img/projeto-parallax.png);"></div>
+          <div class="overlay">Projeto Passeio de Balões</div>
+        </button>
+        <button onClick="abrirSiteFinans()" class="btn-projects">
+          <div class="img-port" style="background-image: url(img/projeto-finans.png);"></div>
+          <div class="overlay">Projeto Finans</div>
+        </button>
+        <button onClick="abrirSiteSpotify()" class="btn-projects">
+          <div class="img-port" style="background-image: url(img/projeto-spotify.png);"></div>
+          <div class="overlay">Projeto Spotify</div>
+        </button>
+        <button onClick="abrirSiteNoticias()" class="btn-projects">
+          <div class="img-port" style="background-image: url(img/projeto-noticias-cidade.png);"></div>
+          <div class="overlay">Projeto Notícias Cidade</div>
+        </button>
+      </div>
+      <!-- FLEX -->
+    </div>
+    <!-- INTERFACE -->
+  </section>
+  <!-- PORTFÓLIO -->
+
+  <section id="contact" class="contact">
+    <div class="interface">
+      <h2 class="title">FALE <span>COMIGO.</span></h2>
+      <form onsubmit="enviarWhats(event)">
+        <input class="interaction" type="text" name="name" id="name" placeholder="Seu Nome Completo:" required>
+        <textarea name="message" id="message" class="interaction" rows="30"
+          placeholder="Escreva sua mensagem"></textarea>
+        <div class="btn-send interaction">
+          <button type="submit">
+            <i class="bi bi-whatsapp"></i> Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- INTERFACE-->
+  </section>
+  <!-- CONTATO -->
+
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+          <div class="soon-footer">
+            <img class="soon-fg" src="img/logo.png" alt="">
+          </div> <!-- SOON-FOOTER -->
+          <div class="btn-social">
+            <a href="https://github.com/Kayque-Almeida" target="_blank">
+              <button>
+                <i class="bi bi-github"></i>
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/kayque-almeida/" target="_blank">
+              <button>
+                <i class="bi bi-linkedin"></i>
+              </button>
+            </a>
+          </div> <!-- BTN-SOCIAL -->
+        </div>
+      </div> <!-- FLEX -->
+    </div> <!-- LINE FOOTER  -->
+
+    <div class="line-footer border">
+      <p>
+        <i class="bi bi-envelope-fill"></i>
+        <a href="mailto:kayque.carmo11@gmail.com">kayque.carmo11@gmail.com</a>
+      </p>
+    </div> <!-- LINE-FOOTER -->
+    </div> <!-- INTERFACE -->
+  </footer>
+  <!-- FOOTER -->
+  <p class="end">&copy; 2025 Kayque de Almeida. Todos os direitos reservados.</p>
+  <!-- FIM DO SITE -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
