@@ -98,6 +98,12 @@ header a {
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  color: #000;
+}
+
+.btn-contact button:hover,
+.btn-cv button:hover {
+  color: #fff;
 }
 
 header .btn-contact button,
@@ -371,6 +377,14 @@ section.about-me {
   cursor: pointer;
   margin: 0 5px;
   transition: 0.2s;
+}
+
+.btn-social button i {
+  color: #000;
+}
+
+.btn-social button:hover i {
+  color: #fff;
 }
 
 /* ESTILO DO PORTFÓLIO */
